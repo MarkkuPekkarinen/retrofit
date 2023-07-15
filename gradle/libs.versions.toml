@@ -13,9 +13,9 @@
 # limitations under the License.
 
 [versions]
-kotlin = "1.8.22"
+kotlin = "1.9.0"
 okhttp = "3.14.9"
-protobuf = "3.23.2"
+protobuf = "3.23.4"
 robovm = "2.3.14"
 
 [plugins]
@@ -23,8 +23,8 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 dokka = { id = "org.jetbrains.dokka", version = "1.8.20" }
 errorprone = { id = "net.ltgt.errorprone", version = "3.1.0" }
 mavenPublish = { id = "com.vanniktech.maven.publish", version = "0.18.0" }
-protobuf = { id = "com.google.protobuf", version = "0.9.3" }
-animalsniffer = { id = "ru.vyarus.animalsniffer", version = "1.7.0" }
+protobuf = { id = "com.google.protobuf", version = "0.9.4" }
+animalsniffer = { id = "ru.vyarus.animalsniffer", version = "1.7.1" }
 googleJavaFormat = { id = "com.github.sherter.google-java-format", version = "0.9" }
 
 [libraries]
