@@ -1,6 +1,11 @@
+plugins {
+  id 'org.gradle.toolchains.foojay-resolver-convention' version '0.7.0'
+}
+
 rootProject.name = 'retrofit-root'
 
 include ':retrofit'
+include ':retrofit-bom'
 include ':retrofit:android-test'
 include ':retrofit:kotlin-test'
 include ':retrofit:robovm-test'
