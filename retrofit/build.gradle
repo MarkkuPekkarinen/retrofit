@@ -32,14 +32,18 @@ addMultiReleaseSourceSet(14)
 addMultiReleaseSourceSet(16)
 
 dependencies {
-  api libs.okhttp
+  api libs.okhttp.client
 
   compileOnly libs.android
   compileOnly libs.kotlin.stdLib
-  compileOnly libs.kotlinCoroutines
+  compileOnly libs.kotlinx.coroutines
 
   compileOnly libs.animalSnifferAnnotations
   compileOnly libs.findBugsAnnotations
+}
+
+javadoc {
+  exclude('retrofit2/internal/**')
 }
 
 jar {
