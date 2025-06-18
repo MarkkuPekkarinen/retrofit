@@ -13,21 +13,21 @@
 # limitations under the License.
 
 [versions]
-kotlin = "2.1.20"
-okhttp = "3.14.9"
-protobuf = "3.25.6"
+kotlin = "2.1.21"
+okhttp = "4.12.0"
+protobuf = "3.25.8"
 robovm = "2.3.14"
 kotlinx-serialization = "1.8.1"
 autoService = "1.1.1"
 incap = "1.0.0"
-jackson = "2.18.3"
+jackson = "2.19.1"
 
 [libraries]
-androidPlugin = { module = "com.android.tools.build:gradle", version = "8.9.1" }
+androidPlugin = { module = "com.android.tools.build:gradle", version = "8.10.1" }
 robovmPlugin = { module = "com.mobidevelop.robovm:robovm-gradle-plugin", version.ref = "robovm" }
 dokkaPlugin = "org.jetbrains.dokka:dokka-gradle-plugin:2.0.0"
-gradleMavenPublishPlugin = "com.vanniktech:gradle-maven-publish-plugin:0.31.0"
-spotlessPlugin = "com.diffplug.spotless:spotless-plugin-gradle:7.0.3"
+gradleMavenPublishPlugin = "com.vanniktech:gradle-maven-publish-plugin:0.32.0"
+spotlessPlugin = "com.diffplug.spotless:spotless-plugin-gradle:7.0.4"
 
 kotlin-stdLib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
 kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
@@ -37,7 +37,7 @@ errorpronePlugin = "net.ltgt.gradle:gradle-errorprone-plugin:4.2.0"
 errorproneCore = { module = "com.google.errorprone:error_prone_core", version = "2.10.0" }
 errorproneJavac = { module = "com.google.errorprone:javac", version = "9+181-r4173-1" }
 
-animalSnifferPlugin = "ru.vyarus:gradle-animalsniffer-plugin:2.0.0"
+animalSnifferPlugin = "ru.vyarus:gradle-animalsniffer-plugin:2.0.1"
 animalSnifferAnnotations = { module = "org.codehaus.mojo:animal-sniffer-annotations", version = "1.24" }
 
 protobufPlugin = "com.google.protobuf:protobuf-gradle-plugin:0.9.5"
@@ -68,7 +68,7 @@ rxjava2 = { module = "io.reactivex.rxjava2:rxjava", version = "2.2.21" }
 rxjava3 = { module = "io.reactivex.rxjava3:rxjava", version = "3.1.10" }
 reactiveStreams = { module = "org.reactivestreams:reactive-streams", version = "1.0.4" }
 scalaLibrary = { module = "org.scala-lang:scala-library", version = "2.13.16" }
-gson = { module = "com.google.code.gson:gson", version = "2.13.0" }
+gson = { module = "com.google.code.gson:gson", version = "2.13.1" }
 jacksonDatabind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
 jacksonDataformatCbor = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor", version.ref = "jackson" }
 jaxbApi = { module = "javax.xml.bind:jaxb-api", version = "2.3.1" }
@@ -78,9 +78,9 @@ jaxb3Impl = { module = "com.sun.xml.bind:jaxb-impl", version = "3.0.2" }
 moshi = { module = "com.squareup.moshi:moshi", version = "1.15.2" }
 simpleXml = { module = "org.simpleframework:simple-xml", version = "2.7.1" }
 wireRuntime = { module = "com.squareup.wire:wire-runtime", version = "2.2.0" }
-jsoup = { module = "org.jsoup:jsoup", version = "1.19.1" }
+jsoup = { module = "org.jsoup:jsoup", version = "1.20.1" }
 robovm = { module = "com.mobidevelop.robovm:robovm-rt", version.ref = "robovm" }
-googleJavaFormat = "com.google.googlejavaformat:google-java-format:1.26.0"
-ktlint = "com.pinterest.ktlint:ktlint-cli:1.5.0"
+googleJavaFormat = "com.google.googlejavaformat:google-java-format:1.27.0"
+ktlint = "com.pinterest.ktlint:ktlint-cli:1.6.0"
 compileTesting = "com.google.testing.compile:compile-testing:0.21.0"
 testParameterInjector = "com.google.testparameterinjector:test-parameter-injector:1.18"
